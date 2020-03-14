@@ -1,0 +1,79 @@
+match_slot_lengths:
+  pre: 60
+  match: 150
+  post: 30
+  total: 240
+#
+# Various staging related times, in seconds before the actual match start
+staging:
+  # The earliest teams can present themselves for a match
+  opens: 300
+  # The time by which teams _must_ be in staging
+  closes: 120
+  # How long staging is open for; equal to `opens - closes`
+  duration: 180
+  # How long before the start of the match to signal to shepherds they
+  # should start looking for teams
+  signal_shepherds:
+    Shepherd: 180
+  # How long before the start of the match to signal to teams they should
+  # go to staging
+  signal_teams: 180
+#
+timezone: Europe/London
+#
+delays: []
+#
+match_periods:
+  league:
+  - start_time: 2020-04-18 11:20:00+01:00
+    end_time: 2020-04-18 12:56:00+01:00
+    max_end_time: 2020-04-18 12:16:00+01:00
+    description: Saturday league, morning
+
+#
+  - start_time: 2020-04-18 13:00:00+01:00
+    end_time: 2020-04-18 14:16:00+01:00
+    max_end_time: 2020-04-18 14:30:00+01:00
+    description: Saturday league, early afternoon
+
+#
+  - start_time: 2020-04-18 15:40:00+01:00
+    end_time: 2020-04-18 16:56:00+01:00
+    max_end_time: 2020-04-18 17:10:00+01:00
+    description: Saturday league, late afternoon
+
+#
+  - start_time: 2020-04-19 10:20:00+01:00
+    end_time: 2020-04-19 12:16:00+01:00
+    max_end_time: 2020-04-19 12:26:00+01:00
+    description: Sunday league, morning
+
+#
+  - start_time: 2020-04-19 13:00:00+01:00
+    end_time: 2020-04-19 13:36:00+01:00
+    max_end_time: 2020-04-19 13:41:00+01:00
+    description: Sunday league, afternoon
+#
+# There is a group photograph scheduled for 14:00
+#
+  knockout:
+  - start_time: 2020-04-19 14:20:00+01:00
+    end_time: 2020-04-19 15:46:00+01:00
+    description: Knockouts
+#
+# There is no tiebreaker
+#
+league:
+  extra_spacing: null
+#
+knockout:
+  round_spacing: 300 # Delay between knockout rounds
+  final_delay: 300   # Extra delay before the finals
+#
+# Everyone goes through to the knockouts (arity = ?)
+#
+  single_arena:
+    rounds: 5        # We only have one arena, so this is all the rounds
+    arenas:
+    - main

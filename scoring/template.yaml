@@ -1,0 +1,19 @@
+match_number: 0
+arena_id: main
+teams:
+  TLA1:
+    zone: 0
+    disqualified: false
+    present: true
+  TLA2:
+    zone: 1
+    disqualified: false
+    present: true
+  TLA3:
+    zone: 2
+    disqualified: false
+    present: true
+  TLA4:
+    zone: 3
+    disqualified: false
+    present: true
