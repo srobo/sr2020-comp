@@ -142,7 +142,7 @@ class ScorerTests(unittest.TestCase):
         self.zone_contents[0]['tokens'] = 'SG'
 
         self.assertScores({
-            'ABC': 3,
+            'ABC': 2,
             'DEF': 0,
             'GHI': 0,
         }, self.zone_contents)
@@ -151,7 +151,7 @@ class ScorerTests(unittest.TestCase):
         self.zone_contents[0]['tokens'] = 'SS GG'
 
         self.assertScores({
-            'ABC': 6,
+            'ABC': 4,
             'DEF': 0,
             'GHI': 0,
         }, self.zone_contents)
@@ -160,7 +160,7 @@ class ScorerTests(unittest.TestCase):
         self.zone_contents[0]['tokens'] = 'SSS SSS G'
 
         self.assertScores({
-            'ABC': 10.5,
+            'ABC': 7,
             'DEF': 0,
             'GHI': 0,
         }, self.zone_contents)
@@ -172,8 +172,8 @@ class ScorerTests(unittest.TestCase):
 
         self.assertScores({
             'ABC': 9,
-            'DEF': 6,
-            'GHI': 9,
+            'DEF': 4,
+            'GHI': 6,
         }, self.zone_contents)
 
 

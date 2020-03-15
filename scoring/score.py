@@ -18,9 +18,9 @@ class Scorer(object):
 
     def calculate_scores(self):
         def zone_score(zone_data):
-            if not zone_data:
-                return 0
-            return  3 * sum(zone_data.values()) / len(zone_data)
+            num_tokens = sum(zone_data.values())
+            points_per_token = 3 if len(zone_data) == 1 else 1
+            return points_per_token * num_tokens
 
         scores = {
             tla: zone_score(self._zone_contents[team_data['zone']])
