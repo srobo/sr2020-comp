@@ -3,10 +3,10 @@
 import unittest
 
 # Path hackery
-import os.path
+import pathlib
 import sys
-ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-sys.path.insert(0, ROOT)
+ROOT = pathlib.Path(__file__).parent.parent
+sys.path.insert(0, str(ROOT))
 
 from score import Scorer, InvalidScoresheetException
 
