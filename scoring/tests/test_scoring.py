@@ -13,6 +13,8 @@ from score import Scorer, InvalidScoresheetException
 
 
 class ScorerTests(unittest.TestCase):
+    longMessage = True
+
     def test_template(self):
         template_path = ROOT / 'template.yaml'
         with template_path.open() as f:
