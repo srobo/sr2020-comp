@@ -26,40 +26,34 @@ delays: []
 #
 match_periods:
   league:
-  - start_time: 2020-04-18 11:20:00+01:00
-    end_time: 2020-04-18 12:56:00+01:00
-    max_end_time: 2020-04-18 12:16:00+01:00
-    description: Saturday league, morning
+  - start_time: 2020-07-12 11:30:00+01:00
+    end_time: 2020-07-12 12:30:00+01:00
+    max_end_time: 2020-07-12 12:45:00+01:00
+    description: First weekend league, morning
 
 #
-  - start_time: 2020-04-18 13:00:00+01:00
-    end_time: 2020-04-18 14:16:00+01:00
-    max_end_time: 2020-04-18 14:30:00+01:00
-    description: Saturday league, early afternoon
+  - start_time: 2020-07-12 14:30:00+01:00
+    end_time: 2020-07-12 15:30:00+01:00
+    max_end_time: 2020-07-12 15:45:00+01:00
+    description: First weekend league, afternoon
 
 #
-  - start_time: 2020-04-18 15:40:00+01:00
-    end_time: 2020-04-18 16:56:00+01:00
-    max_end_time: 2020-04-18 17:10:00+01:00
-    description: Saturday league, late afternoon
+  - start_time: 2020-07-19 11:30:00+01:00
+    end_time: 2020-07-19 12:30:00+01:00
+    max_end_time: 2020-07-19 12:45:00+01:00
+    description: Second weekend league, morning
 
 #
-  - start_time: 2020-04-19 10:20:00+01:00
-    end_time: 2020-04-19 12:16:00+01:00
-    max_end_time: 2020-04-19 12:26:00+01:00
-    description: Sunday league, morning
-
-#
-  - start_time: 2020-04-19 13:00:00+01:00
-    end_time: 2020-04-19 13:36:00+01:00
-    max_end_time: 2020-04-19 13:41:00+01:00
-    description: Sunday league, afternoon
+  - start_time: 2020-07-19 14:30:00+01:00
+    end_time: 2020-07-19 15:30:00+01:00
+    max_end_time: 2020-07-19 15:45:00+01:00
+    description: Second weekend league, afternoon
 #
 # There is a group photograph scheduled for 14:00
 #
   knockout:
-  - start_time: 2020-04-19 14:20:00+01:00
-    end_time: 2020-04-19 15:46:00+01:00
+  - start_time: 2020-07-26 14:30:00+01:00
+    end_time: 2020-07-26 15:30:00+01:00
     description: Knockouts
 #
 # There is no tiebreaker
