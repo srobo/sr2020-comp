@@ -5,18 +5,22 @@ teams:
     zone: 0
     disqualified: false
     present: true
+    left_scoring_zone: false
   TLA2:
     zone: 1
     disqualified: false
     present: true
+    left_scoring_zone: false
   TLA3:
     zone: 2
     disqualified: false
     present: true
+    left_scoring_zone: false
   TLA4:
     zone: 3
     disqualified: false
     present: true
+    left_scoring_zone: false
 
 arena_zones:
   0:

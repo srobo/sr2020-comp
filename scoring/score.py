@@ -23,7 +23,10 @@ class Scorer(object):
             return points_per_token * num_tokens
 
         scores = {
-            tla: zone_score(self._zone_contents[team_data['zone']])
+            tla: sum((
+                1 if team_data['left_scoring_zone'] else 0,
+                zone_score(self._zone_contents[team_data['zone']]),
+            ))
             for tla, team_data in self._teams_data.items()
         }
         return scores

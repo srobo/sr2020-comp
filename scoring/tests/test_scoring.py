@@ -28,9 +28,9 @@ class ScorerTests(unittest.TestCase):
 
     def setUp(self):
         self.teams_data = {
-            'ABC': {'zone': 0},
-            'DEF': {'zone': 1},
-            'GHI': {'zone': 2},
+            'ABC': {'zone': 0, 'left_scoring_zone': False},
+            'DEF': {'zone': 1, 'left_scoring_zone': False},
+            'GHI': {'zone': 2, 'left_scoring_zone': False},
         }
         self.other_contents = {'tokens': 'SSSS SSSS GGGG GGGG'}
         self.zone_contents = {
@@ -97,6 +97,23 @@ class ScorerTests(unittest.TestCase):
     def test_no_tokens_move(self):
         self.assertScores({
             'ABC': 0,
+            'DEF': 0,
+            'GHI': 0,
+        }, self.zone_contents)
+
+    def test_left_scoring_zone(self):
+        self.teams_data['ABC']['left_scoring_zone'] = True
+        self.assertScores({
+            'ABC': 1,
+            'DEF': 0,
+            'GHI': 0,
+        }, self.zone_contents)
+
+    def test_left_scoring_zone_and_single_token(self):
+        self.teams_data['ABC']['left_scoring_zone'] = True
+        self.zone_contents[0]['tokens'] = 'S'
+        self.assertScores({
+            'ABC': 4,
             'DEF': 0,
             'GHI': 0,
         }, self.zone_contents)
