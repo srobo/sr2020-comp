@@ -13,18 +13,12 @@ sys.path.insert(0, str(ROOT))
 from score import Scorer, InvalidScoresheetException, EXPECTED_TOKENS
 NUM_TOKENS = sum(EXPECTED_TOKENS.values())
 
-TEAMS_DATA =  {
-    'ABC': {'zone': 0},
-    'DEF': {'zone': 1},
-    'GHI': {'zone': 2},
-}
-
 
 class ScorerTests(unittest.TestCase):
     longMessage = True
 
     def construct_scorer(self, zone_contents):
-        return Scorer(TEAMS_DATA, zone_contents)
+        return Scorer(self.teams_data, zone_contents)
 
     def assertScores(self, expected_scores, zone_contents):
         scorer = self.construct_scorer(zone_contents)
@@ -33,6 +27,11 @@ class ScorerTests(unittest.TestCase):
         self.assertEqual(expected_scores, actual_scores, "Wrong scores")
 
     def setUp(self):
+        self.teams_data = {
+            'ABC': {'zone': 0},
+            'DEF': {'zone': 1},
+            'GHI': {'zone': 2},
+        }
         self.other_contents = {'tokens': 'SSSS SSSS GGGG GGGG'}
         self.zone_contents = {
             zone: {'tokens': ''}
