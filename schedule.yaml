@@ -48,8 +48,7 @@ match_periods:
     end_time: 2020-07-19 15:30:00+01:00
     max_end_time: 2020-07-19 15:45:00+01:00
     description: Second weekend league, afternoon
-#
-# There is a group photograph scheduled for 14:00
+
 #
   knockout:
   - start_time: 2020-07-26 14:30:00+01:00
