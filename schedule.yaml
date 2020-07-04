@@ -58,7 +58,13 @@ match_periods:
 # There is no tiebreaker
 #
 league:
-  extra_spacing: null
+  # Extra spacing before an arbitrary set of matches
+  # This value is ignored for matches which occur at the start of a period
+  # since no additional time is needed there.
+  extra_spacing:
+    # Ensure that each of these matches is at the start of a period
+    # - match_numbers: 13,25,37
+    #   duration: 3600     # seconds
 #
 knockout:
   round_spacing: 300 # Delay between knockout rounds
