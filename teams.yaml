@@ -6,7 +6,10 @@ teams:
         name: The College of Richard Collyer
         rookie: No
     HRS:
-        name: Hills Road Sixth Form College
+        name: Hills Road Sixth Form College (first team)
+        rookie: No
+    HRS2:
+        name: Hills Road Sixth Form College (second team)
         rookie: No
     HSO:
         name: Headington School
