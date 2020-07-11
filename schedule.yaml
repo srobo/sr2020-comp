@@ -63,8 +63,8 @@ league:
   # since no additional time is needed there.
   extra_spacing:
     # Ensure that each of these matches is at the start of a period
-    # - match_numbers: 13,25,37
-    #   duration: 3600     # seconds
+    - match_numbers: 12,24,36
+      duration: 3600     # seconds
 #
 knockout:
   round_spacing: 300 # Delay between knockout rounds
