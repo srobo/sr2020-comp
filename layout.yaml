@@ -4,15 +4,15 @@ teams:
   - name: the-venue
     display_name: The Venue
     teams:
-      - BPV
-      - CLY
       - HRS
+      - HRS2
       - HSO
       - JAM
       - KEV
       - KSF
+      - LSS
       - MAI
       - RGS
       - SEN
       - SWI
-      - TLC
+      - TPS
