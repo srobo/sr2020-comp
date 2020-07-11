@@ -17,6 +17,9 @@ teams:
     KSF:
         name: Kenilworth Sixth Form
         rookie: Yes
+    LSS:
+        name: Lawrence Sheriff School
+        rookie: No
     MAI:
         name: Gymnasium Markt Indersdorf
         rookie: No
