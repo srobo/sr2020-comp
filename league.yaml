@@ -1,98 +1,49 @@
-# Placeholder!
 matches:
   0:
-    main: [BPV, CLY, HRS, HSO]
+    main: [HRS, HRS2, HSO, JAM]
   1:
-    main: [JAM, KEV, KSF, MAI]
+    main: [KEV, KSF, LSS, MAI]
   2:
-    main: [RGS, SEN, SWI, TLC]
+    main: [RGS, LSS, HRS, JAM]
   3:
-    main: [KEV, JAM, HRS, BPV]
+    main: [SEN, JAM, SWI, HRS]
   4:
-    main: [SWI, KSF, SEN, CLY]
+    main: [KSF, SWI, TPS, HSO]
   5:
-    main: [TLC, MAI, HSO, RGS]
+    main: [TPS, RGS, KSF, SEN]
   6:
-    main: [CLY, HRS, KEV, JAM]
+    main: [LSS, SEN, MAI, RGS]
   7:
-    main: [TLC, SEN, BPV, KSF]
+    main: [KEV, HRS, JAM, TPS]
   8:
-    main: [MAI, HSO, SWI, RGS]
+    main: [HRS2, TPS, RGS, SWI]
   9:
-    main: [RGS, MAI, KEV, HSO]
+    main: [HSO, KSF, SEN, MAI]
   10:
-    main: [BPV, HRS, JAM, SWI]
+    main: [HRS2, KEV, LSS, SWI]
   11:
-    main: [TLC, KSF, SEN, CLY]
+    main: [MAI, HSO, KEV, HRS2]
   12:
-    main: [RGS, BPV, KEV, CLY]
+    main: [TPS, KEV, HRS2, KSF]
   13:
-    main: [TLC, MAI, KSF, JAM]
+    main: [SWI, RGS, JAM, KEV]
   14:
-    main: [HSO, SWI, HRS, SEN]
+    main: [JAM, MAI, HRS, KSF]
   15:
-    main: [MAI, TLC, KEV, RGS]
+    main: [SWI, SEN, HSO, LSS]
   16:
-    main: [HRS, KSF, SWI, BPV]
+    main: [JAM, HRS2, KEV, SEN]
   17:
-    main: [SEN, JAM, CLY, HSO]
+    main: [SEN, TPS, MAI, HRS2]
   18:
-    main: [BPV, KEV, MAI, TLC]
+    main: [HSO, MAI, TPS, RGS]
   19:
-    main: [SEN, SWI, RGS, KSF]
+    main: [LSS, HRS, HRS2, TPS]
   20:
-    main: [JAM, CLY, HRS, HSO]
+    main: [KSF, LSS, RGS, HSO]
   21:
-    main: [HSO, JAM, MAI, CLY]
+    main: [RGS, HSO, SEN, HRS]
   22:
-    main: [RGS, KEV, TLC, HRS]
+    main: [HRS, SWI, KSF, KEV]
   23:
-    main: [SEN, KSF, SWI, BPV]
-  24:
-    main: [KEV, MAI, KSF, TLC]
-  25:
-    main: [SEN, SWI, JAM, BPV]
-  26:
-    main: [HSO, CLY, HRS, RGS]
-  27:
-    main: [SWI, SEN, KSF, KEV]
-  28:
-    main: [HRS, JAM, CLY, MAI]
-  29:
-    main: [RGS, BPV, TLC, HSO]
-  30:
-    main: [MAI, KSF, SWI, SEN]
-  31:
-    main: [RGS, CLY, KEV, JAM]
-  32:
-    main: [BPV, TLC, HRS, HSO]
-  33:
-    main: [HSO, BPV, SWI, TLC]
-  34:
-    main: [KEV, KSF, SEN, HRS]
-  35:
-    main: [RGS, JAM, CLY, MAI]
-  36:
-    main: [HSO, KEV, SWI, MAI]
-  37:
-    main: [RGS, BPV, JAM, SEN]
-  38:
-    main: [TLC, HRS, KSF, CLY]
-  39:
-    main: [BPV, RGS, SWI, HSO]
-  40:
-    main: [KSF, JAM, HRS, KEV]
-  41:
-    main: [CLY, SEN, MAI, TLC]
-  42:
-    main: [KEV, SWI, BPV, RGS]
-  43:
-    main: [CLY, HRS, HSO, JAM]
-  44:
-    main: [SEN, MAI, KSF, TLC]
-  45:
-    main: [TLC, SEN, BPV, MAI]
-  46:
-    main: [HSO, SWI, RGS, KSF]
-  47:
-    main: [CLY, JAM, HRS, KEV]
+    main: [MAI, JAM, SWI, LSS]
