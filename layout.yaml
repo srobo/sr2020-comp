@@ -1,5 +1,3 @@
-# TODO: populate this with the real locations once we know which teams are going
-# to be placed in which shepherding areas.
 teams:
   - name: the-venue
     display_name: The Venue
