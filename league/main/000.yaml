@@ -1,0 +1,29 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: ''
+  1:
+    tokens: S
+  2:
+    tokens: ''
+  3:
+    tokens: ''
+  other:
+    tokens: SSSSSSSGGGGGGGG
+match_number: 0
+teams:
+  HRS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  HRS2:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
+  HSO:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
