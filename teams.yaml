@@ -29,3 +29,6 @@ teams:
     SWI:
         name: South Wilts Grammar School
         rookie: No
+    TPS:
+        name: Perse School
+        rookie: Yes
