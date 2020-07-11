@@ -30,5 +30,5 @@ teams:
   SEN:
     disqualified: false
     left_scoring_zone: false
-    present: true
+    present: false
     zone: 2
