@@ -47,3 +47,51 @@ matches:
     main: [null, SWI, KEV, JAM]
   23:
     main: [LSS, HSO, SWI, KSF]
+  24:
+    main: [MAI, LSS, JAM, KSF]
+  25:
+    main: [KEV, SEN, HRS, SWI]
+  26:
+    main: [HRS2, HRS, MAI, KSF]
+  27:
+    main: [null, KSF, HSO, MAI]
+  28:
+    main: [SEN, HSO, TPS, JAM]
+  29:
+    main: [TPS, HRS2, SEN, null]
+  30:
+    main: [HRS, null, SWI, HRS2]
+  31:
+    main: [KEV, MAI, KSF, TPS]
+  32:
+    main: [LSS, TPS, HRS2, HSO]
+  33:
+    main: [JAM, SEN, null, SWI]
+  34:
+    main: [LSS, KEV, HRS, HSO]
+  35:
+    main: [SWI, JAM, KEV, LSS]
+  36:
+    main: [TPS, KEV, LSS, SEN]
+  37:
+    main: [HSO, HRS2, KSF, KEV]
+  38:
+    main: [KSF, SWI, MAI, SEN]
+  39:
+    main: [HSO, null, JAM, HRS]
+  40:
+    main: [KSF, LSS, KEV, null]
+  41:
+    main: [null, TPS, SWI, LSS]
+  42:
+    main: [JAM, SWI, TPS, HRS2]
+  43:
+    main: [HRS, MAI, LSS, TPS]
+  44:
+    main: [SEN, HRS, HRS2, JAM]
+  45:
+    main: [HRS2, JAM, null, MAI]
+  46:
+    main: [MAI, HSO, SEN, KEV]
+  47:
+    main: [SWI, KSF, HSO, HRS]
