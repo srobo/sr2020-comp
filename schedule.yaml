@@ -23,8 +23,8 @@ staging:
 timezone: Europe/London
 #
 delays:
-- delay: 120
-  time: 2020-07-11 15:52:07+01:00
+- delay: 240
+  time: 2020-07-11 15:50:00+01:00
 #
 match_periods:
   league:
