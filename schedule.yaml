@@ -22,7 +22,9 @@ staging:
 #
 timezone: Europe/London
 #
-delays: []
+delays:
+- delay: 120
+  time: 2020-07-11 15:52:07+01:00
 #
 match_periods:
   league:
@@ -63,8 +65,8 @@ league:
   # since no additional time is needed there.
   extra_spacing:
     # Ensure that each of these matches is at the start of a period
-    - match_numbers: 12,24,36
-      duration: 3600     # seconds
+  - match_numbers: 12,24,36
+    duration: 3600       # seconds
 #
 knockout:
   round_spacing: 300 # Delay between knockout rounds
