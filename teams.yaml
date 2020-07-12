@@ -32,3 +32,6 @@ teams:
     TPS:
         name: Perse School
         rookie: Yes
+    WGS:
+        name: Wisbech Grammar School
+        rookie: No
