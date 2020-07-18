@@ -68,7 +68,7 @@ league:
   - match_numbers: 12,24,36
     duration: 3600       # seconds
     # Half time break to discuss physical robots
-  - match_numbers: 30,42
+  - match_numbers: 33,42
     duration: 600       # seconds
 #
 knockout:
