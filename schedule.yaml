@@ -41,14 +41,14 @@ match_periods:
 
 #
   - start_time: 2020-07-18 15:10:00+01:00
-    end_time: 2020-07-18 16:00:00+01:00
-    max_end_time: 2020-07-18 16:10:00+01:00
+    end_time: 2020-07-18 16:20:00+01:00
+    max_end_time: 2020-07-18 16:40:00+01:00
     description: Second Saturday league
 
 #
   - start_time: 2020-07-19 15:10:00+01:00
-    end_time: 2020-07-19 16:00:00+01:00
-    max_end_time: 2020-07-19 16:10:00+01:00
+    end_time: 2020-07-19 16:20:00+01:00
+    max_end_time: 2020-07-19 16:40:00+01:00
     description: Second Sunday league
 
 #
@@ -67,6 +67,9 @@ league:
     # Ensure that each of these matches is at the start of a period
   - match_numbers: 12,24,36
     duration: 3600       # seconds
+    # Half time break to discuss physical robots
+  - match_numbers: 30,42
+    duration: 600       # seconds
 #
 knockout:
   round_spacing: 300 # Delay between knockout rounds
