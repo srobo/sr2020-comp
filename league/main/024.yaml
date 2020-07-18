@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: ''
+  1:
+    tokens: GGG
+  2:
+    tokens: GSS
+  3:
+    tokens: G
+  other:
+    tokens: SSSSSSGGG
+match_number: 24
+teams:
+  JAM:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
+  KSF:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  LSS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  MAI:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
