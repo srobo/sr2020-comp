@@ -1,0 +1,29 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: SG
+  1:
+    tokens: GGG
+  2:
+    tokens: ''
+  3:
+    tokens: S
+  other:
+    tokens: SSSSSSGGGG
+match_number: 50
+teams:
+  KEV:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  SEN:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
+  SWI:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
