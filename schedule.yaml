@@ -56,9 +56,11 @@ match_periods:
   - start_time: 2020-07-25 15:10:00+01:00
     end_time: 2020-07-25 16:10:00+01:00
     description: Knockouts
-#
-# There is no tiebreaker
-#
+
+# Scheduled time for the finals tie-breaker, if any
+# This is an absolute value and ignores the delay values
+tiebreaker: 2020-07-25 15:53:00+01:00
+
 league:
   # Extra spacing before an arbitrary set of matches
   # This value is ignored for matches which occur at the start of a period
